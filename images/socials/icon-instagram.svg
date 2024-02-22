@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <clipPath id="clip-instagram">
+    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+  </clipPath>
+  <defs>
+    <radialGradient id="a" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#B039DB"/>
+      <stop offset="50%" stop-color="#B039DB" stop-opacity="0.5"/>
+      <stop offset="67%" stop-color="#B039DB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="17%" stop-color="#F1224D"/>
+      <stop offset="75%" stop-color="#F1224D" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#F1224D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="c" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFA915"/>
+      <stop offset="50%" stop-color="#FFA915" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#FFA915" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="d" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFE987"/>
+      <stop offset="75%" stop-color="#FFE987" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="e" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" gradientTransform="matrix(0 1 -1 0 1 0)">
+      <stop offset="10%" stop-color="#FFFFD4"/>
+      <stop offset="46%" stop-color="#FFFFD4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFFFD4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="f" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#00FFFE"/>
+      <stop offset="50%" stop-color="#00FFFE" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#00FFFC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#clip-instagram)" fill="none" fill-rule="evenodd">
+    <g transform="translate(0, 30), scale(0.5)">
+      <path fill="#204BFF" d="M0 0h1024v1024H0z"/>
+      <ellipse cx="842.5" cy="682" fill="url(#a)" rx="1624.5" ry="1224" transform="rotate(-28 842 682)"/>
+      <ellipse cx="400" cy="943.5" fill="url(#b)" rx="1502" ry="1384.5" transform="rotate(-28 400 944)"/>
+      <circle cx="265" cy="1100" r="909" fill="url(#c)"/>
+      <circle cx="376" cy="1269" r="674" fill="url(#d)"/>
+      <ellipse cx="233.5" cy="1350" fill="url(#e)" rx="671.5" ry="622" transform="rotate(-28 233 1350)"/>
+      <ellipse cx="126.5" cy="-285.5" fill="url(#f)" opacity=".4" rx="1429.5" ry="584.5"/>
+    </g>
+  </g>
+</svg>
