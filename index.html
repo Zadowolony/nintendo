@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | My Nintendo Store</title>
-    <link rel="icon" type="image/png" href="images/mario-header.png"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/mario-head-bg.jpg"/>
+    <link rel="stylesheet" href="styles/style.css">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -17,21 +17,18 @@
 </head>
 
 <body>
-
+    <!-- Boven Header - VoorkeuTaal -->
     <div class="container">
         <div class="row ">
-            <div class=" col-12   col-md-6
-            d-flex align-self-center d-flex justify-content-center my-2 py-2 my-sm-2 my-md-0  ">
+            <div class=" col-12   col-md-6 col-lg-7
+            d-flex align-self-center d-flex justify-content-center justify-content-lg-start my-2 py-2 my-sm-2 my-md-0  ">
                 <p class="fw-bold  ">Kies of bevestig je verzendlocatie en
                     voorkeurstaal</p>
             </div>
             <div
-                class="col-12 col-sm-6  col-md-4 col-xs-12 d-flex justify-content-md-end justify-content-center py-3 py-0-sm  ">
+                class="col-12  col-md-4 col-lg-5 d-flex  justify-content-center align-items-center py-3 py-0-sm  ">
 
                 <div class="btn-group language-group align-items-end px-3 " role="group">
-
-
-
                     <button type="button"
                         class="btn dropdown-toggle dropdown-btn  border border-black d-flex align-items-center justify-content-center px-5 "
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,16 +44,13 @@
                         <li><a class="dropdown-item d-flex justify-content-center" href="#">Meer opties...</a></li>
                     </ul>
                 </div>
-
-            </div>
-            <div class="col-12 col-sm-6 col-md-2 col-xs-12 d-flex align-self-center justify-content-center ">
-                <button type="button" class="btn btn-nav rounded-4 px-4 mb-3 mb-sm-0 text-uppercase ">
+                <button type="button" class="btn btn-nav rounded-4 px-4  mb-sm-0 text-uppercase ">
                     Doorgaan
                 </button>
             </div>
+           
         </div>
     </div>
-
  <!-- NAVIGATION -->
     <div class=" bg-color-red">
         <div class="container">
@@ -66,11 +60,11 @@
                         <!-- NAVBAR MOBILE -->
                         <div class="col-3 d-lg-none full-container-mobile-nav ">
                             <div class="container-fluid">
-                                <button class="navbar-toggler border-white" type="button" data-bs-toggle="offcanvas"
+                                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
                                     aria-label="Toggle navigation">
                                     <span>
-                                        <i class="fas fa-bars" style="color:#fff; font-size:24px;"></i>
+                                        <i class="fas fa-bars" ></i>
                                     </span>
                                 </button>
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -110,7 +104,8 @@
                                                     Spelsystemen
                                                 </a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Nintendo Switch Spelystemen</a></li>
+                                                    <li><a class="dropdown-item " href="#">Nintendo Switch Spelystemen</a></li>
+
                                                     <li><a class="dropdown-item" href="#">Ontdek de Nieuwe Switch</a></li>
                                                     <li><a class="dropdown-item" href="#">Bekijk Alle Spelsystemen</a></li>
                                                     <li><a class="dropdown-item" href="#">Nintendo Switch OLED Systeem</a></li>
@@ -119,7 +114,8 @@
                                                     <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Nintendo Switch Bundels</a></li>
+                                                    <li><a class="dropdown-item " href="#">Nintendo Switch Bundels</a></li>
+
                                                     <li><a class="dropdown-item" href="#">Bekijk alle Nintendo Switch Bundels</a></li>
                                                     <li><a class="dropdown-item" href="#">Nintendo Switch OLED Bundels</a></li>
                                                     <li><a class="dropdown-item" href="#">Nintendo Switch Bundels</a></li>
@@ -128,7 +124,8 @@
                                                     <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Accessoires</a></li>
+                                                    <li><a class="dropdown-item "  href="#">Accessoires</a></li>
+
                                                     <li><a class="dropdown-item" href="#">Beschermhoezen</a></li>
                                                     <li><a class="dropdown-item" href="#">Controllers</a></li>
                                                     <li><a class="dropdown-item" href="#">Games & Watch</a></li>
@@ -154,7 +151,7 @@
                                                     <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Winkelen op Franchise</a></li>
+                                                    <li><a class="dropdown-item "  href="#">Winkelen op Franchise</a></li>
                                                     <li><a class="dropdown-item" href="#">Super Mario</a></li>
                                                     <li><a class="dropdown-item" href="#">Mario Cart</a></li>
                                                     <li><a class="dropdown-item" href="#">Pokemon</a></li>
@@ -167,7 +164,7 @@
                                                     <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Winkelen op Genre</a></li>
+                                                    <li><a class="dropdown-item "  href="#">Winkelen op Genre</a></li>
                                                     <li><a class="dropdown-item" href="#">Actie</a></li>
                                                     <li><a class="dropdown-item" href="#">Avontuur</a></li>
                                                     <li><a class="dropdown-item" href="#">Educatief</a></li>
@@ -187,7 +184,7 @@
                                                     <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Speel op jouw manier</a></li>
+                                                    <li><a class="dropdown-item "  href="#">Speel op jouw manier</a></li>
                                                             <li><a class="dropdown-item" href="#">Familie</a></li>
                                                             <li><a class="dropdown-item" href="#">Actief gamen</a></li>
                                                             <li><a class="dropdown-item" href="#">Mentale gezondheid</a></li>
@@ -197,7 +194,7 @@
                                                     <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Verbeter je speelstijl</a></li>
+                                                    <li><a class="dropdown-item "  href="#">Verbeter je speelstijl</a></li>
                                                             <li><a class="dropdown-item" href="#">amiibo</a></li>
                                                             <li><a class="dropdown-item" href="#">Wat zijn amiibo?</a></li>
                                                             <li><a class="dropdown-item" href="#">Nintendo Switch Online</a></li>
@@ -217,7 +214,8 @@
                                                     <li>
                                                         <hr class="dropdown-divider">
                                                     </li>
-                                                    <li><a class="dropdown-item" id="menu-title" href="#">Winkelen op Franchise</a></li>
+                                                    <li><a class="dropdown-item "  href="#">Winkelen op Franchise</a></li>
+
                                                             <li><a class="dropdown-item" href="#">Super Mario</a></li>
                                                             <li><a class="dropdown-item" href="#">Mario Cart</a></li>
                                                             <li><a class="dropdown-item" href="#">Pokemon</a></li>
@@ -230,14 +228,16 @@
                                                             <li>
                                                                 <hr class="dropdown-divider">
                                                             </li>
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Kleiding</a></li>
+                                                            <li><a class="dropdown-item " href="#">Kleiding</a></li>
+
                                                             <li><a class="dropdown-item" href="#">Tassen</a></li>
                                                             <li><a class="dropdown-item" href="#">T-shirts en overhemden</a></li>
                                                             <li><a class="dropdown-item" href="#">Bekijk alle kleiding</a></li>
                                                             <li>
                                                                 <hr class="dropdown-divider">
                                                             </li>
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Thuis en cadeaus</a></li>
+                                                            <li><a class="dropdown-item "  href="#">Thuis en cadeaus</a></li>
+                                                            
                                                             <li><a class="dropdown-item" href="#">Headphones</a></li>
                                                             <li><a class="dropdown-item" href="#">verzamelgiguren</a></li>
                                                             <li><a class="dropdown-item" href="#">Mokken</a></li>
@@ -340,20 +340,20 @@
 
                                                 
 
-                                            <ul class="dropdown-menu dropdown-menu-1  py-4">
+                                            <div class="dropdown-menu dropdown-menu-1  py-4">
                                                 
                                                 <div class="container py-4">
                                                     <div class="row col-12 ">
                                                         <div class="col-4 ">
-                                                            <li><a class="dropdown-item fw-bold" href="#">Nieuwste Release</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Binnenkort</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Aanbiedingen</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Registreer je interesse</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Exclusief voor My Nintendo Store</a></li>           
+                                                            <div><a class="dropdown-item fw-bold" href="#">Nieuwste Release</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Binnenkort</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Aanbiedingen</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Registreer je interesse</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Exclusief voor My Nintendo Store</a></div>           
                                                         </div>                                                            
                                                     </div>
                                                 </div>
-                                            </ul>
+                                            </div>
                                         </li>
                                 
                                         <li class="nav-item dropdown">
@@ -362,40 +362,40 @@
                                                 Spelsystemen
                                             </a>
 
-                                            <ul class="dropdown-menu dropdown-menu-2">
+                                            <div class="dropdown-menu dropdown-menu-2">
 
                                                 <div class="container py-4">
                                                     <div class="row col-12 ">
                                                         <div class="col-4 ">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Nintendo Switch Spelystemen</a></li>
-                                                            <li><a class="dropdown-item" href="#">Ontdek de Nieuwe Switch</a></li>
-                                                            <li><a class="dropdown-item" href="#">Bekijk Alle Spelsystemen</a></li>
-                                                            <li><a class="dropdown-item" href="#">Nintendo Switch OLED Systeem</a></li>
-                                                            <li><a class="dropdown-item" href="#">Nintendo Switch</a></li>
-                                                            <li><a class="dropdown-item" href="#">Nintendo Switch Lite</a></li>
+                                                            <div><a class="dropdown-item menu-title"  href="#">Nintendo Switch Spelystemen</a></div>
+                                                            <div><a class="dropdown-item" href="#">Ontdek de Nieuwe Switch</a></div>
+                                                            <div><a class="dropdown-item" href="#">Bekijk Alle Spelsystemen</a></div>
+                                                            <div><a class="dropdown-item" href="#">Nintendo Switch OLED Systeem</a></div>
+                                                            <div><a class="dropdown-item" href="#">Nintendo Switch</a></div>
+                                                            <div><a class="dropdown-item" href="#">Nintendo Switch lite</a></div>
                                                         </div>
                                                         <div class="col-4">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Nintendo Switch Bundels</a></li>
-                                                            <li><a class="dropdown-item" href="#">Bekijk alle Nintendo Switch Bundels</a></li>
-                                                            <li><a class="dropdown-item" href="#">Nintendo Switch OLED Bundels</a></li>
-                                                            <li><a class="dropdown-item" href="#">Nintendo Switch Bundels</a></li>
-                                                            <li><a class="dropdown-item" href="#">Nintendo Switch Lite Bundels</a></li>
-                                                            <li><a class="dropdown-item" href="#">Stel je eigen Nintendo Switch Bundel Samen</a></li>
+                                                            <div><a class="dropdown-item menu-title"  href="#">Nintendo Switch Bundels</a></div>
+                                                            <div><a class="dropdown-item" href="#">Bekijk alle Nintendo Switch Bundels</a></div>
+                                                            <div><a class="dropdown-item" href="#">Nintendo Switch OLED Bundels</a></div>
+                                                            <div><a class="dropdown-item" href="#">Nintendo Switch Bundels</a></div>
+                                                            <div><a class="dropdown-item" href="#">Nintendo Switch lite Bundels</a></div>
+                                                            <div><a class="dropdown-item" href="#">Stel je eigen Nintendo Switch Bundel Samen</a></div>
                                                         </div>
                                                         <div class="col-4">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Accessoires</a></li>
-                                                            <li><a class="dropdown-item" href="#">Beschermhoezen</a></li>
-                                                            <li><a class="dropdown-item" href="#">Controllers</a></li>
-                                                            <li><a class="dropdown-item" href="#">Games & Watch</a></li>
-                                                            <li><a class="dropdown-item" href="#">Gaming Headset</a></li>
-                                                            <li><a class="dropdown-item" href="#">Geheugenkaarten</a></li>
-                                                            <li><a class="dropdown-item" href="#">Vervangende Onderdelen</a></li>
-                                                            <li><a class="dropdown-item" href="#">Bekijk alle accessoires</a></li>
+                                                            <div><a class="dropdown-item menu-title"  href="#">Accessoires</a></div>
+                                                            <div><a class="dropdown-item" href="#">Beschermhoezen</a></div>
+                                                            <div><a class="dropdown-item" href="#">Controllers</a></div>
+                                                            <div><a class="dropdown-item" href="#">Games & Watch</a></div>
+                                                            <div><a class="dropdown-item" href="#">Gaming Headset</a></div>
+                                                            <div><a class="dropdown-item" href="#">Geheugenkaarten</a></div>
+                                                            <div><a class="dropdown-item" href="#">Vervangende Onderdelen</a></div>
+                                                            <div><a class="dropdown-item" href="#">Bekijk alle accessoires</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                
-                                            </ul>
+                                            </div>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" role="button"
@@ -403,70 +403,70 @@
                                                 Games
                                             </a>
 
-                                            <ul class="dropdown-menu dropdown-menu-3">
+                                            <div class="dropdown-menu dropdown-menu-3">
 
                                                 <div class="container py-4">
                                                     <div class="row col-12 ">
                                                         <div class="col-2 ">
-                                                            <li><a class="dropdown-item fw-bold" href="#">Binnenkort</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Nieuwste Release</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Aanbiedingen</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Top 10 Games</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Digitale Downloads</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">DLC</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Alle Games Bekijken</a></li>
+                                                            <div><a class="dropdown-item fw-bold menu-title" href="#">Binnenkort</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Nieuwste Release</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Aanbiedingen</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Top 10 Games</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Digitale Downloads</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">DLC</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Alle Games Bekijken</a></div>
                                                         </div>
                                                         <div class="col-3">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Winkelen op Franchise</a></li>
-                                                            <li><a class="dropdown-item" href="#">Super Mario</a></li>
-                                                            <li><a class="dropdown-item" href="#">Mario Cart</a></li>
-                                                            <li><a class="dropdown-item" href="#">Pokemon</a></li>
-                                                            <li><a class="dropdown-item" href="#">The Legend Of Zelda</a></li>
-                                                            <li><a class="dropdown-item" href="#">Animal Crossing</a></li>
-                                                            <li><a class="dropdown-item" href="#">Kirby</a></li>
-                                                            <li><a class="dropdown-item" href="#">Pikmin</a></li>
-                                                            <li><a class="dropdown-item" href="#">Splatoon</a></li>
-                                                            <li><a class="dropdown-item" href="#">Monster Hunter</a></li>
+                                                            <div><a class="dropdown-item menu-title"  href="#">Winkelen op Franchise</a></div>
+                                                            <div><a class="dropdown-item" href="#">Super Mario</a></div>
+                                                            <div><a class="dropdown-item" href="#">Mario Cart</a></div>
+                                                            <div><a class="dropdown-item" href="#">Pokemon</a></div>
+                                                            <div><a class="dropdown-item" href="#">The Legend Of Zelda</a></div>
+                                                            <div><a class="dropdown-item" href="#">Animal Crossing</a></div>
+                                                            <div><a class="dropdown-item" href="#">Kirby</a></div>
+                                                            <div><a class="dropdown-item" href="#">Pikmin</a></div>
+                                                            <div><a class="dropdown-item" href="#">Splatoon</a></div>
+                                                            <div><a class="dropdown-item" href="#">Monster Hunter</a></div>
                                                         </div>
                                                         <div class="col-2">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Winkelen op Genre</a></li>
-                                                            <li><a class="dropdown-item" href="#">Actie</a></li>
-                                                            <li><a class="dropdown-item" href="#">Avontuur</a></li>
-                                                            <li><a class="dropdown-item" href="#">Educatief</a></li>
-                                                            <li><a class="dropdown-item" href="#">Vechten</a></li>
-                                                            <li><a class="dropdown-item" href="#">Gezondheid en Fitness</a></li>
-                                                            <li><a class="dropdown-item" href="#">Muziek</a></li>
-                                                            <li><a class="dropdown-item" href="#">Party</a></li>
-                                                            <li><a class="dropdown-item" href="#">Platform</a></li>
-                                                            <li><a class="dropdown-item" href="#">Puzzel</a></li>
-                                                            <li><a class="dropdown-item" href="#">Racing</a></li>
-                                                            <li><a class="dropdown-item" href="#">RPG</a></li>
-                                                            <li><a class="dropdown-item" href="#">Shooter</a></li>
-                                                            <li><a class="dropdown-item" href="#">Simulatie</a></li>
-                                                            <li><a class="dropdown-item" href="#">Sport</a></li>
-                                                            <li><a class="dropdown-item" href="#">Strategie</a></li>
-                                                            <li><a class="dropdown-item" href="#">Training</a></li>
+                                                            <div><a class="dropdown-item menu-title"  href="#">Winkelen op Genre</a></div>
+                                                            <div><a class="dropdown-item" href="#">Actie</a></div>
+                                                            <div><a class="dropdown-item" href="#">Avontuur</a></div>
+                                                            <div><a class="dropdown-item" href="#">Educatief</a></div>
+                                                            <div><a class="dropdown-item" href="#">Vechten</a></div>
+                                                            <div><a class="dropdown-item" href="#">Gezondheid en Fitness</a></div>
+                                                            <div><a class="dropdown-item" href="#">Muziek</a></div>
+                                                            <div><a class="dropdown-item" href="#">Party</a></div>
+                                                            <div><a class="dropdown-item" href="#">Platform</a></div>
+                                                            <div><a class="dropdown-item" href="#">Puzzel</a></div>
+                                                            <div><a class="dropdown-item" href="#">Racing</a></div>
+                                                            <div><a class="dropdown-item" href="#">RPG</a></div>
+                                                            <div><a class="dropdown-item" href="#">Shooter</a></div>
+                                                            <div><a class="dropdown-item" href="#">Simdivatie</a></div>
+                                                            <div><a class="dropdown-item" href="#">Sport</a></div>
+                                                            <div><a class="dropdown-item" href="#">Strategie</a></div>
+                                                            <div><a class="dropdown-item" href="#">Training</a></div>
 
                                                         </div>
                                                         <div class="col-2">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Speel op jouw manier</a></li>
-                                                            <li><a class="dropdown-item" href="#">Familie</a></li>
-                                                            <li><a class="dropdown-item" href="#">Actief gamen</a></li>
-                                                            <li><a class="dropdown-item" href="#">Mentale gezondheid</a></li>
-                                                            <li><a class="dropdown-item" href="#">Online Multiplayer</a></li>
-                                                            <li><a class="dropdown-item" href="#">Lokale Multiplayer</a></li>
+                                                            <div><a class="dropdown-item menu-title" href="#">Speel op jouw manier</a></div>
+                                                            <div><a class="dropdown-item" href="#">Familie</a></div>
+                                                            <div><a class="dropdown-item" href="#">Actief gamen</a></div>
+                                                            <div><a class="dropdown-item" href="#">Mentale gezondheid</a></div>
+                                                            <div><a class="dropdown-item" href="#">Ondline Multiplayer</a></div>
+                                                            <div><a class="dropdown-item" href="#">Lokale Multiplayer</a></div>
                                                         </div>
                                                         <div class="col-2">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Verbeter je speelstijl</a></li>
-                                                            <li><a class="dropdown-item" href="#">amiibo</a></li>
-                                                            <li><a class="dropdown-item" href="#">Wat zijn amiibo?</a></li>
-                                                            <li><a class="dropdown-item" href="#">Nintendo Switch Online</a></li>
-                                                            <li><a class="dropdown-item" href="#">Wat is Nintendo Switch Online?</a></li>
+                                                            <div><a class="dropdown-item menu-title" href="#">Verbeter je speelstijl</a></div>
+                                                            <div><a class="dropdown-item" href="#">amiibo</a></div>
+                                                            <div><a class="dropdown-item" href="#">Wat zijn amiibo?</a></div>
+                                                            <div><a class="dropdown-item" href="#">Nintendo Switch Online</a></div>
+                                                            <div><a class="dropdown-item" href="#">Wat is Nintendo Switch Online?</a></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                
-                                            </ul>
+                                            </div>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" role="button"
@@ -474,50 +474,50 @@
                                                 Merchandise
                                             </a>
 
-                                            <ul class="dropdown-menu dropdown-menu-4">
+                                            <div class="dropdown-menu dropdown-menu-4 ">
 
                                                 <div class="container py-4">
                                                     <div class="row col-12 ">
-                                                        <div class="col-2 ">
-                                                            <li><a class="dropdown-item fw-bold" href="#">My Nintedo beloningen</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Exclusief My Nintedo Store</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Alle merchandise bekijken</a></li>
+                                                        <div class="col-3 ">
+                                                            <div><a class="dropdown-item fw-bold" href="#">My Nintedo beloningen</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Exclusief My Nintedo Store</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Alle merchandise bekijken</a></div>
+                                                        </div>
+                                                        <div class="col-2">
+                                                            <div><a class="dropdown-item menu-title" href="#">Winkelen op Franchise</a></div>
+                                                            <div><a class="dropdown-item" href="#">Super Mario</a></div>
+                                                            <div><a class="dropdown-item" href="#">Mario Cart</a></div>
+                                                            <div><a class="dropdown-item" href="#">Pokemon</a></div>
+                                                            <div><a class="dropdown-item" href="#">The Legend Of Zelda</a></div>
+                                                            <div><a class="dropdown-item" href="#">Animal Crossing</a></div>
+                                                            <div><a class="dropdown-item" href="#">Kirby</a></div>
+                                                            <div><a class="dropdown-item" href="#">Pikmin</a></div>
+                                                            <div><a class="dropdown-item" href="#">Splatoon</a></div>
+                                                            <div><a class="dropdown-item" href="#">Lego Super Mario</a></div>
                                                         </div>
                                                         <div class="col-3">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Winkelen op Franchise</a></li>
-                                                            <li><a class="dropdown-item" href="#">Super Mario</a></li>
-                                                            <li><a class="dropdown-item" href="#">Mario Cart</a></li>
-                                                            <li><a class="dropdown-item" href="#">Pokemon</a></li>
-                                                            <li><a class="dropdown-item" href="#">The Legend Of Zelda</a></li>
-                                                            <li><a class="dropdown-item" href="#">Animal Crossing</a></li>
-                                                            <li><a class="dropdown-item" href="#">Kirby</a></li>
-                                                            <li><a class="dropdown-item" href="#">Pikmin</a></li>
-                                                            <li><a class="dropdown-item" href="#">Splatoon</a></li>
-                                                            <li><a class="dropdown-item" href="#">Lego Super Mario</a></li>
+                                                            <div><a class="dropdown-item menu-title"  href="#">Kleiding</a></div>
+                                                            <div><a class="dropdown-item" href="#">Tassen</a></div>
+                                                            <div><a class="dropdown-item" href="#">T-shirts en overhemden</a></div>
+                                                            <div><a class="dropdown-item" href="#">Bekijk alle kleiding</a></div>
                                                         </div>
                                                         <div class="col-2">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Kleiding</a></li>
-                                                            <li><a class="dropdown-item" href="#">Tassen</a></li>
-                                                            <li><a class="dropdown-item" href="#">T-shirts en overhemden</a></li>
-                                                            <li><a class="dropdown-item" href="#">Bekijk alle kleiding</a></li>
+                                                            <div><a class="dropdown-item menu-title"  href="#">Thuis en cadeaus</a></div>
+                                                            <div><a class="dropdown-item" href="#">Headphones</a></div>
+                                                            <div><a class="dropdown-item" href="#">verzamelgiguren</a></div>
+                                                            <div><a class="dropdown-item" href="#">Mokken</a></div>
+                                                            <div><a class="dropdown-item" href="#">Pokemon Trading Card Game</a></div>
+                                                            <div><a class="dropdown-item" href="#">Pluche</a></div>
+                                                            <div><a class="dropdown-item" href="#">Speelgoed en spellen</a></div>
+                                                            <div><a class="dropdown-item" href="#">Bekijk alles van thuis en cadeaus</a></div>
                                                         </div>
-                                                        <div class="col-2">
-                                                            <li><a class="dropdown-item" id="menu-title" href="#">Thuis en cadeaus</a></li>
-                                                            <li><a class="dropdown-item" href="#">Headphones</a></li>
-                                                            <li><a class="dropdown-item" href="#">verzamelgiguren</a></li>
-                                                            <li><a class="dropdown-item" href="#">Mokken</a></li>
-                                                            <li><a class="dropdown-item" href="#">Pokemon Trading Card Game</a></li>
-                                                            <li><a class="dropdown-item" href="#">Pluche</a></li>
-                                                            <li><a class="dropdown-item" href="#">Speelgoed en spellen</a></li>
-                                                            <li><a class="dropdown-item" href="#">Bekijk alles van thuis en cadeaus</a></li>
-                                                        </div>
-                                                        <div class="col-2">
+                                                        <div class="col-1">
 
                                                         </div>
                                                     </div>
                                                 </div>
                                                
-                                            </ul>
+                                            </div>
                                         </li>
                                         <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" role="button"
@@ -525,20 +525,20 @@
                                                 Franchaise
                                             </a>
 
-                                            <ul class="dropdown-menu dropdown-menu-5">
+                                            <div class="dropdown-menu dropdown-menu-5">
 
                                                 <div class="container py-4">
                                                     <div class="row col-12 ">
                                                         <div class="col-2 ">
-                                                            <li><a class="dropdown-item  fw-bold" href="#">Super Mario</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Mario Cart</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Pokemon</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">The Legend Of Zelda</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Animal Crossing</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Kirby</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Pikmin</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Splatoon</a></li>
-                                                            <li><a class="dropdown-item fw-bold" href="#">Lego Super Mario</a></li>
+                                                            <div><a class="dropdown-item  fw-bold" href="#">Super Mario</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Mario Cart</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Pokemon</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">The Legend Of Zelda</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Animal Crossing</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Kirby</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Pikmin</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Splatoon</a></div>
+                                                            <div><a class="dropdown-item fw-bold" href="#">Lego Super Mario</a></div>
                                                         </div>
                                                         <div class="col-3">
      
@@ -556,7 +556,7 @@
                                                     </div>
                                                 </div>
                                                
-                                            </ul>
+                                            </div>
                                         </li>
 
                                     
@@ -573,28 +573,39 @@
             </nav>
         </div>
     </div>
-
     <!-- HEADER WRAPPER -->
     <div class="bg-color-wh border-bottom  border-dark-subtle">
-        <div class="container ">
-            <div class="row  justify-content-center align-items-center py-2 ">
-                <div class="col-5 col-md-4  d-flex  justify-content-center ">
-                    <img src="svg/Delivery.svg" alt="delivery icon">
-                    <p class="reklam mx-2 col-12 ">Gratis bezorging vanaf € 24,99</p>
+        <div class="container col-12 ">
+            <div class="row  col-12 justify-content-center align-items-center py-2 ">
+                <div class="col-5  col-lg-4  d-flex  justify-content-center align-items-center">
+                    <div class="col-2 d-flex justify-content-end">
+                        <img src="svg/Delivery.svg" alt="delivery icon">
+                    </div>
+                    <div class="col-10">
+                        <p class="reklam mx-2 col-12 ">Gratis bezorging vanaf € 24,99</p>
+                    </div>
+                    
+                    
                 </div>
-                <div class="col-md-4 reward-icon d-flex justify-content-center d-none d-lg-inline-flex ">
-                    <img class=" reward-icon" src="svg/Reward_Icon_black_1.svg" alt="reward icon">
-                    <p class="reklam ">Exclusieve beloningen met My Nintendo</p>
+                <div class="col-md-4 reward-icon d-flex justify-content-center align-items-center d-none d-lg-inline-flex ">
+                    <div class="col-2 d-flex justify-content-end">
+                        <img class=" reward-icon" src="svg/Reward_Icon_black_1.svg" alt="reward icon">
+                    </div>
+                    <div class="col-10">
+                        <p class="reklam ">Exclusieve beloningen met My Nintendo</p>
+                    </div>                                     
                 </div>
-                <div class="col-md-4 d-flex justify-content-center  d-none d-lg-inline-flex ">
-                    <img src="svg/Returns_icon.svg" alt="returns icon">
-                    <p class="reklam mx-2">Gratis retourneren*</p>
+                <div class="col-md-4 d-flex justify-content-center align-items-center d-none d-lg-inline-flex ">
+                    <div class="col-2 d-flex justify-content-end">
+                        <img src="svg/Returns_icon.svg" alt="returns icon">
+                    </div>
+                    <div class="col-10">
+                        <p class="reklam mx-2">Gratis retourneren*</p>
+                    </div>                                      
                 </div>
             </div>
         </div>
     </div>
-
-
     <!-- IMAGE CAROUSEL  -->
     <div class="container p-0">
         <div id="carouselExampleCaptions" class="carousel slide">
@@ -631,14 +642,14 @@
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="prev">
-                <span class="custom-icon">
+                <span class="custom-icon-slider">
                     <i class="fa-solid fa-caret-left fa-sm" style="color: #000000;"></i>
                 </span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                 data-bs-slide="next">
-                <span class="custom-icon">
+                <span class="custom-icon-slider">
 
                     <i class="fa-solid fa-caret-right fa-sm" style="color: #000000"></i>
                 </span>
@@ -646,8 +657,6 @@
             </button>
         </div>
     </div>
-
-
     <!-- SECOND HEADER - SPECIAL -->
     <div class="container col-12 col-md-12 col-lg-6 second-header mb-5">
         <header>
@@ -666,8 +675,6 @@
             </nav>
         </header>
     </div>
-
-
     <!-- TAB CAROUSEL with POST -->
     <div class="container col-12 container-relative-tab">
 
@@ -952,14 +959,13 @@
             </div>
         </div>
     </div>
-
-
+    <!-- Foto Banner -->
     <div class="container col-12 mt-5 p-0 ">
         <div class="img-banner  d-flex  align-items-center justify-content-center ">
             <button class="nin-btn-main">Ontdek nintendo switch</button>
         </div>
     </div>
-
+    <!-- Spelsystemen Aanbod -->
     <div class="container d-flex justify-content-center">
 
         <div class="sell-switch-bg row col-11  align-items-center justify-content-center flex-wrap flex-md-nowrap g-0 py-5">
@@ -1021,7 +1027,7 @@
 
 
     </div>
-
+    <!-- Maario Kaart Banner -->
     <div class="container bg-red-banner mt-5 mario-container pb-5">
         <div class="row d-flex justify-content-between align-items-center ">
 
@@ -1048,313 +1054,220 @@
 
         </div>
     </div>
-
-
-   
-
-
+    <!-- Footer -->
     <footer class="bg-white  ">
+            <!-- Footer Mobile Dropdown -->
+            <div class="footer-mobile">
 
-        <div class="footer-mobile">
+                <div
+                class="col-12  d-flex justify-content-center my-5 footer-line-top-bottom-mobile ">
 
-            <div
-            class="col-12  d-flex justify-content-center my-5 footer-line-top-bottom-mobile ">
-
-                <div class="btn-group align-items-end px-3 py-3 " role="group">
-
-
-
-                    <button type="button"
+                    <div class="btn-group align-items-end px-3 py-3 " role="group">
+                        <button type="button"
                         class="btn dropdown-toggle dropdown-btn  border border-black d-flex align-items-center justify-content-center px-5 "
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="be-flag img-fluid" src="images/be-flaf.webp" alt="">
+
+                        <img class="be-flag img-fluid" src="images/be-flaf.webp" alt="Belgie">
 
                         Belgie€
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                        <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                        <li><a class="dropdown-item" href="#"> <img class="be-flag img-fluid mx-2" src="images/be-flaf.webp" alt="Belgie">
+
+                            Belgie€</a></li>
+                        <li><a class="dropdown-item d-flex justify-content-center" href="#">Meer opties...</a></li>
                     </ul>
+                    </div>
+
                 </div>
 
+                <div class="container col-12 ">
+                    <div class="d-inline-flex row flex-column  gap-1 col-12">
+                        <div id="productButton" class="btn btn-footer col-12"  role="button" data-bs-toggle="collapse" data-bs-target="#productCollapse" aria-expanded="false" aria-controls="productCollapse">
+                            <div class="row align-items-center justify-content-between">
+                                <div class="col-6 d-flex justify-content-start p-0">Producten</div>
+                                <div class="col-6 px-2 d-flex justify-content-end"><i class="fa-solid fa-sort-down"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="productCollapse">
+                        <div class="card card-body">
+                            <ul class="footer-ul-mobile  p-0">
+                                <li><a href="#">Stel je eigen Nintendo Switch- spelsysteembundel samen</a></li>
+                                <li><a href="#">Nintendo Switch-spelsystemen</a></li>
+                                <li><a href="#">Nintendo Switch-games</a></li>
+                                <li><a href="#">Nieuwste releases</a></li>
+                                <li><a href="#">My Nintendo-beloningen</a></li>
+                                <li><a href="#">Exclusief voor My Nintendo Store</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            
+                    <div class="d-inline-flex row flex-column justify-content-between  gap-1 col-12">
+                        <div id="franchiseButton" class="btn btn-footer col-12"  role="button" data-bs-toggle="collapse" data-bs-target="#franchiseCollapse" aria-expanded="false" aria-controls="franchiseCollapse">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-6 d-flex justify-content-start p-0">Franchises</div>
+                                <div class="col-6 d-flex justify-content-end  px-2"><i class="fa-solid fa-sort-down"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="franchiseCollapse">
+                        <div class="card card-body">
+                            <ul class="footer-ul-mobile p-0">
+                                <li><a href="#">Super Mario</a></li>
+                                <li><a href="#">Pokemon</a></li>
+                                <li><a href="#">The Legend of Zelda</a></li>
+                                <li><a href="#">Animal Crossing</a></li>
+                                <li><a href="#">Splatoon</a></li>
+                                <li><a href="#">Mario Kart</a></li>
+                                <li><a href="#">Monster Hunter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-inline-flex row flex-column justify-content-between  gap-1 col-12">
+                        <div id="ondersteuningButton" class="btn btn-footer col-12"  role="button" data-bs-toggle="collapse" data-bs-target="#ondersteuningCollapse" aria-expanded="false" aria-controls="ondersteuningCollapse">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-6 d-flex justify-content-start p-0">Ondersteuning</div>
+                                <div class="col-6 d-flex justify-content-end  px-2"><i class="fa-solid fa-sort-down"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="ondersteuningCollapse">
+                        <div class="card card-body">
+                            <ul class="footer-ul-mobile p-0">
+                                <li><a href="#">Hulp en veelgestelde vragen</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-inline-flex row flex-column justify-content-between  gap-1 col-12">
+                        <div id="overButton" class="btn btn-footer col-12"  role="button" data-bs-toggle="collapse" data-bs-target="#overCollapse" aria-expanded="false" aria-controls="overCollapse">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-6 d-flex justify-content-start p-0">Over</div>
+                                <div class="col-6 d-flex justify-content-end  px-2"><i class="fa-solid fa-sort-down"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="overCollapse">
+                        <div class="card card-body">
+                            <ul class="footer-ul-mobile p-0">
+                                <li><a href="#">My Nintendo Store</a></li>
+                                <li><a href="#">My Nintendo</a></li>
+                                <li><a href="#">Nintendo.be</a></li>
+                                <li><a href="#">Vacatures</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- Footer Large -->
+            <div class="footer-lines footer-lg ">
+                <div class="container col-12  ">
+                    <div
+                    class="col-12  d-flex ">
+                        <div class="btn-group align-items-end px-3 " role="group">
+                            <button type="button"
+                                class="btn dropdown-toggle dropdown-btn  border border-black d-flex align-items-center justify-content-center px-5 "
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="be-flag img-fluid" src="images/be-flaf.webp" alt="">
 
-            <div class="container col-12 ">
-                <p class="d-inline-flex row flex-column  gap-1 col-12">
-                    <button id="productButton" class="btn btn-footer" type="button" data-bs-toggle="collapse" data-bs-target="#productCollapse" aria-expanded="false" aria-controls="productCollapse">
-                        <div class="row align-items-center justify-content-between">
-                            <div class="col-6 d-flex justify-content-start p-0">Producten</div>
-                            <div class="col-6 px-2 d-flex justify-content-end"><i class="fa-solid fa-sort-down"></i></div>
+                                Belgie€
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                            </ul>
                         </div>
-                    </button>
-                </p>
-                <div class="collapse" id="productCollapse">
-                    <div class="card card-body">
-                        <ul class="footer-ul-mobile  p-0">
-                            <li><a href="#">Stel je eigen Nintendo Switch- spelsysteembundel samen</a></li>
-                            <li><a href="#">Nintendo Switch-spelsystemen</a></li>
-                            <li><a href="#">Nintendo Switch-games</a></li>
-                            <li><a href="#">Nieuwste releases</a></li>
-                            <li><a href="#">My Nintendo-beloningen</a></li>
-                            <li><a href="#">Exclusief voor My Nintendo Store</a></li>
-                        </ul>
                     </div>
                 </div>
-        
-                <p class="d-inline-flex row flex-column justify-content-between  gap-1 col-12">
-                    <button id="franchiseButton" class="btn btn-footer" type="button" data-bs-toggle="collapse" data-bs-target="#franchiseCollapse" aria-expanded="false" aria-controls="franchiseCollapse">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-6 d-flex justify-content-start p-0">Franchises</div>
-                            <div class="col-6 d-flex justify-content-end  px-2"><i class="fa-solid fa-sort-down"></i></div>
+                <div class="footer-line-top">
+                <div class="container footer-links">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="footer-h2 mb-4">Producten</h2>
+                            <ul class="footer-ul p-0">
+                                <li><a href="#">Stel je eigen Nintendo Switch- spelsysteembundel samen</a></li>
+                                <li><a href="#">Nintendo Switch-spelsystemen</a></li>
+                                <li><a href="#">Nintendo Switch-games</a></li>
+                                <li><a href="#">Nieuwste releases</a></li>
+                                <li><a href="#">My Nintendo-beloningen</a></li>
+                                <li><a href="#">Exclusief voor My Nintendo Store</a></li>
+                            </ul>
                         </div>
-                    </button>
-                </p>
-                <div class="collapse" id="franchiseCollapse">
-                    <div class="card card-body">
-                        <ul class="footer-ul-mobile p-0">
-                            <li><a href="#">Super Mario</a></li>
-                            <li><a href="#">Pokemon</a></li>
-                            <li><a href="#">The Legend of Zelda</a></li>
-                            <li><a href="#">Animal Crossing</a></li>
-                            <li><a href="#">Splatoon</a></li>
-                            <li><a href="#">Mario Kart</a></li>
-                            <li><a href="#">Monster Hunter</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <p class="d-inline-flex row flex-column justify-content-between  gap-1 col-12">
-                    <button id="ondersteuningButton" class="btn btn-footer" type="button" data-bs-toggle="collapse" data-bs-target="#ondersteuningCollapse" aria-expanded="false" aria-controls="ondersteuningCollapse">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-6 d-flex justify-content-start p-0">Ondersteuning</div>
-                            <div class="col-6 d-flex justify-content-end  px-2"><i class="fa-solid fa-sort-down"></i></div>
+                        <div class="col">
+                            <h2 class="footer-h2 mb-4">Franchaises</h2>
+                            <ul class="footer-ul p-0">
+                                <li><a href="#">Super Mario</a></li>
+                                <li><a href="#">Pokemon</a></li>
+                                <li><a href="#">The Legend of Zelda</a></li>
+                                <li><a href="#">Animal Crossing</a></li>
+                                <li><a href="#">Splatoon</a></li>
+                                <li><a href="#">Mario Kart</a></li>
+                                <li><a href="#">Monster Hunter</a></li>
+                            </ul>
                         </div>
-                    </button>
-                </p>
-                <div class="collapse" id="ondersteuningCollapse">
-                    <div class="card card-body">
-                        <ul class="footer-ul-mobile p-0">
-                            <li><a href="#">Hulp en veelgestelde vragen</a></li>
+                        <div class="col">
+                            <h2 class="footer-h2 mb-4">Ondersteuning</h2>
+                            <ul class="footer-ul p-0">
+                                <li><a href="#">Hulp en veelgestelde vragen</a></li>
 
-                        </ul>
-                    </div>
-                </div>
-                <p class="d-inline-flex row flex-column justify-content-between  gap-1 col-12">
-                    <button id="overButton" class="btn btn-footer" type="button" data-bs-toggle="collapse" data-bs-target="#overCollapse" aria-expanded="false" aria-controls="overCollapse">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-6 d-flex justify-content-start p-0">Over</div>
-                            <div class="col-6 d-flex justify-content-end  px-2"><i class="fa-solid fa-sort-down"></i></div>
+                            </ul>
                         </div>
-                    </button>
-                </p>
-                <div class="collapse" id="overCollapse">
-                    <div class="card card-body">
-                        <ul class="footer-ul-mobile p-0">
-                            <li><a href="#">My Nintendo Store</a></li>
-                            <li><a href="#">My Nintendo</a></li>
-                            <li><a href="#">Nintendo.be</a></li>
-                            <li><a href="#">Vacatures</a></li>
-                        </ul>
+                        <div class="col">
+                            <h2 class="footer-h2 mb-4">Over</h2>
+                            <ul class="footer-ul p-0">
+                                <li><a href="#">My Nintendo Store</a></li>
+                                <li><a href="#">My Nintendo</a></li>
+                                <li><a href="#">Nintendo.be</a></li>
+                                <li><a href="#">Vacatures</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-        <div class="footer-lines footer-lg ">
-
-            <div class="container col-12  ">
-
-                <div
-                class="col-12  d-flex ">
-
-                    <div class="btn-group align-items-end px-3 " role="group">
-
-
-
-                        <button type="button"
-                            class="btn dropdown-toggle dropdown-btn  border border-black d-flex align-items-center justify-content-center px-5 "
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <img class="be-flag img-fluid" src="images/be-flaf.webp" alt="">
-
-                            Belgie€
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                            <li><a class="dropdown-item" href="#">Dropdown link</a></li>
-                        </ul>
-                    </div>
-
+        <div class="container mt-5 pb-5">
+            <div class="row">
+                <div class="order-3 order-md-1 col-12 col-md-5 flex-wrap informatie py-4">
+                    <span class="nintendo-copyright">&copy; 2024 Nintendo </span>
+                    <a href="#">Algemene voorwaarden</a>
+                    <a href="#">Privacy en cookies</a>
+                    <a href="#">Bedrijfsinformatie</a>
+                    <a href="#">Cookie-instellingen</a>
                 </div>
-            </div>
-
-            <div class="footer-line-top">
-
-            <div class="container footer-links">
-                <div class="row">
-                    <div class="col">
-                        <h2 class="footer-h2 mb-4">Producten</h2>
-                        <ul class="footer-ul p-0">
-                            <li><a href="#">Stel je eigen Nintendo Switch- spelsysteembundel samen</a></li>
-                            <li><a href="#">Nintendo Switch-spelsystemen</a></li>
-                            <li><a href="#">Nintendo Switch-games</a></li>
-                            <li><a href="#">Nieuwste releases</a></li>
-                            <li><a href="#">My Nintendo-beloningen</a></li>
-                            <li><a href="#">Exclusief voor My Nintendo Store</a></li>
-                        </ul>
+                <div class="row order-2 order-md-2 col-12 col-md-4 py-4">
+                    <div class="col-4 col-md-12 col-lg-3">
+                        <span class="footer-betaal-logo-text">Betaal veilig met</span>
                     </div>
-                    <div class="col">
-                        <h2 class="footer-h2 mb-4">Franchaises</h2>
-                        <ul class="footer-ul p-0">
-                            <li><a href="#">Super Mario</a></li>
-                            <li><a href="#">Pokemon</a></li>
-                            <li><a href="#">The Legend of Zelda</a></li>
-                            <li><a href="#">Animal Crossing</a></li>
-                            <li><a href="#">Splatoon</a></li>
-                            <li><a href="#">Mario Kart</a></li>
-                            <li><a href="#">Monster Hunter</a></li>
-                        </ul>
+                    <div class="col-8 col-md-12 col-lg-9">
+                    <img class="img-fluid" src="svg/visa.svg" alt="visa logo">
+                    <img class="img-fluid" src="svg/mastercard.svg" alt="mastercard logo">
+                    <img class="img-fluid" src="svg/apple-pay.svg" alt="apple pay logo">
+                    <img class="img-fluid" src="svg/paypal.svg" alt="paypal logo">
+                    <img class="img-fluid google-pay-mark" src="images/google-pay-mark.png" alt="google pay logo">
                     </div>
-                    <div class="col">
-                        <h2 class="footer-h2 mb-4">Ondersteuning</h2>
-                        <ul class="footer-ul p-0">
-                            <li><a href="#">Hulp en veelgestelde vragen</a></li>
-
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <h2 class="footer-h2 mb-4">Over</h2>
-                        <ul class="footer-ul p-0">
-                            <li><a href="#">My Nintendo Store</a></li>
-                            <li><a href="#">My Nintendo</a></li>
-                            <li><a href="#">Nintendo.be</a></li>
-                            <li><a href="#">Vacatures</a></li>
-                        </ul>
-                    </div>
+                    
+                    
+                </div>
+                <div class=" order-1 order-md-3 col-12 col-md-3 d-flex justify-content-evenly py-4">
+                    <img class="img-fluid social-icons-footer" src="images/socials/icon-instagram.svg" alt="instagram logo">
+                    <img class="img-fluid  social-icons-footer" src="images/socials/icon-facebook.svg" alt="facebook logo">
+                    <img class="img-fluid social-icons-footer" src="images/socials/ckh0xt2fvauiyznxvftu.svg" alt="twitter logo">
+                    <img class="img-fluid social-icons-footer" src="images/socials/icon-youtube.svg" alt="youtube logo">
+                    <img class="img-fluid social-icons-footer" src="images/socials/icon-twitch.svg" alt="twitch logo">
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="container mt-5 pb-5">
-        <div class="row">
-            <div class="order-3 order-md-1 col-12 col-md-5 flex-wrap informatie py-4">
-                <span class="nintendo-copyright">&copy; 2024 Nintendo </span>
-                <a href="#">Algemene voorwaarden</a>
-                <a href="#">Privacy en cookies</a>
-                <a href="#">Bedrijfsinformatie</a>
-                <a href="#">Cookie-instellingen</a>
-            </div>
-            <div class=" order-2 order-md-2 col-12 col-md-4 py-4">
-                <span class="footer-betaal-logo-text">Betaal veilig met</span>
-                <img class="img-fluid" src="svg/visa.svg" alt="visa logo">
-                <img class="img-fluid" src="svg/mastercard.svg" alt="mastercard logo">
-                <img class="img-fluid" src="svg/apple-pay.svg" alt="apple pay logo">
-                <img class="img-fluid" src="svg/paypal.svg" alt="paypal logo">
-                <img class="img-fluid google-pay-mark" src="images/google-pay-mark.png" alt="google pay logo">
-            </div>
-            <div class=" order-1 order-md-3 col-12 col-md-3 d-flex justify-content-evenly py-4">
-                <img class="img-fluid social-icons-footer" src="images/socials/icon-instagram.svg" alt="instagram logo">
-                <img class="img-fluid  social-icons-footer" src="images/socials/icon-facebook.svg" alt="facebook logo">
-                <img class="img-fluid social-icons-footer" src="images/socials/ckh0xt2fvauiyznxvftu.svg" alt="twitter logo">
-                <img class="img-fluid social-icons-footer" src="images/socials/icon-youtube.svg" alt="youtube logo">
-                <img class="img-fluid social-icons-footer" src="images/socials/icon-twitch.svg" alt="twitch logo">
-            </div>
-        </div>
-    </div>
-
-
     </footer>
-
-    
-
-    </footer>
-
-    
- 
-
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
-
-    
-
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // Hide all collapse elements on page load
-        document.querySelectorAll('.collapse').forEach(function (collapse) {
-            new bootstrap.Collapse(collapse, { hide: true });
-        });
-
-        let tabHeader = document.querySelector(".tab-header");
-        let tabIndicator = document.querySelector(".tab-indicator");
-        let tabBody = document.querySelector(".tab-body");
-        let tabsPane = tabHeader.querySelectorAll("div");
-
-        for (let i = 0; i < tabsPane.length; i++) {
-            tabsPane[i].addEventListener("click", function () {
-                // Remove active class from the header tabs
-                tabHeader.querySelector(".active").classList.remove("active");
-                tabsPane[i].classList.add("active");
-
-                // Remove active class from the tab body content
-                tabBody.querySelector(".active").classList.remove("active");
-
-                // Add active class to the corresponding tab body content
-                let contentElement = tabBody.children[i];
-                contentElement.classList.add("active");
-
-                // Set the tab indicator position
-                tabIndicator.style.left = `calc((100% / 4) * ${i})`;
-            });
-        }
-
-        // Get references to your buttons and collapse elements
-        let productButton = document.getElementById('productButton');
-        let productCollapse = new bootstrap.Collapse(document.getElementById('productCollapse'));
-
-        let franchiseButton = document.getElementById('franchiseButton');
-        let franchiseCollapse = new bootstrap.Collapse(document.getElementById('franchiseCollapse'));
-
-        let ondersteuningButton = document.getElementById('ondersteuningButton');
-        let ondersteuningCollapse = new bootstrap.Collapse(document.getElementById('ondersteuningCollapse'));
-
-        let overButton = document.getElementById('overButton');
-        let overCollapse = new bootstrap.Collapse(document.getElementById('overCollapse'));
-
-        // Add click event listeners to your buttons
-        productButton.addEventListener('click', function () {
-            // Toggle the corresponding collapse
-            productCollapse.toggle();
-        });
-
-        franchiseButton.addEventListener('click', function () {
-            // Toggle the corresponding collapse
-            franchiseCollapse.toggle();
-        });
-
-        ondersteuningButton.addEventListener('click', function () {
-            // Toggle the corresponding collapse
-            ondersteuningCollapse.toggle();
-        });
-
-        overButton.addEventListener('click', function () {
-            // Toggle the corresponding collapse
-            overCollapse.toggle();
-        });
-    });
-</script>
+    <script src="js/footer-collapse.js"></script>
 
 </body>
 
